@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portafolio de Desarrollador de Software</title>
+</head>
+    <body>
+        <header>
+            <h1>Portafolio de Desarrollador de Software</h1>
+        </header>
+        
+        <nav>
+            <a href="#about">Acerca de</a>
+            <a href="#gallery">Galería</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+
+        <section id="about" class="info">
+            <div class="about-info">
+                <h2>Acerca de Mí</h2>
+                <img src="IMG/si.jpg" alt="">
+                <h3>Jose Enrique Gudiño Gomez</h3>
+            </div>
+            <div class="skills-info">
+                <h4>Mis avilidades</h4>
+                <p>Java, C, C#, PHP, HTML, CSS, MySQL, Python</p>
+                <h4>Avilidades que me gustaria aprender</h4>
+                <p>Inteligencia Artificial, Seguridad informática</p>
+                <h4>Pasatiempos</h4>
+                <p>VideoJuegos, Leer, Escrivir, Hacer manualidades, Dungeons and Dragons</p>
+            </div>
+        </section>
+        
+        <section id="gallery" class="">
+            <h2>Galería de Proyectos</h2>
+    
+            <div class="filter-bar">
+                <button onclick="filterProjects('unity')">Unity</button>
+                <button onclick="filterProjects('csharp')">C#</button>
+                <button onclick="filterProjects('java')">Java</button>
+                <button onclick="filterProjects('html')">HTML</button>
+                <button onclick="filterProjects('css')">CSS</button>
+            </div>
+
+            <div class="gallery">
+                <div class="project" data-date="2021-10-01" data-languages="unity,csharp">
+                    <a href="https://youtu.be/Bf8c-J0av2s">
+                        <img class="link" src="IMG/EndlessRunner.png" alt="Proyecto 1">
+                    </a>
+                    <h3>Proyecto: Endless Runner</h3>
+                    <div>
+                        <a class="github" href="https://github.com/Catrin101/Endless-Runner.git">
+                            <img src="IMG/icons/github.png" alt="Imagen 1">
+                        </a>
+                        <img class="lenguaje" src="IMG/icons/unity.png" alt="">
+                        <img class="lenguaje" src="IMG/icons/csharp.png" alt="">
+                    </div>
+                </div>
+                <div class="project" data-date="2021-10-01" data-languages="unity,csharp">
+                    <a href="https://youtu.be/Yq3yxtM7-i0">
+                        <img class="link" src="IMG/Flappy Bird.png" alt="Proyecto 2">
+                    </a>
+                    <h3>Proyecto: Flappy Bird</h3>
+                    <div>
+                        <a class="github" href="https://github.com/Catrin101/Flappy-Bird.git">
+                            <img src="IMG/icons/github.png" alt="Imagen 1">
+                        </a>
+                        <img class="lenguaje" src="IMG/icons/unity.png" alt="">
+                        <img class="lenguaje" src="IMG/icons/csharp.png" alt="">
+                    </div>
+                </div>
+                <div class="project" data-date="2021-10-01" data-languages="unity,csharp">
+                    <a href="https://youtu.be/fk_zOc8KArM">
+                        <img class="link" src="IMG/pong.png" alt="Proyecto 3">
+                    </a>
+                    <h3>Proyecto: PONG</h3>
+                    <div>
+                        <a class="github" href="https://github.com/Catrin101/PONG.git">
+                            <img src="IMG/icons/github.png" alt="Imagen 1">
+                        </a>
+                        <img class="lenguaje" src="IMG/icons/unity.png" alt="">
+                        <img class="lenguaje" src="IMG/icons/csharp.png" alt="">
+                    </div>
+                </div>
+                <div class="project" data-date="2021-10-01" data-languages="unity,csharp">
+                    <a href="https://youtu.be/u4fSPRRLe_M">
+                        <img class="link" src="IMG/shutter Naves 2D.png" alt="Proyecto 1">
+                    </a>
+                    <h3>Proyecto: shutter Naves 2D</h3>
+                    <div>
+                        <a class="github" href="https://github.com/Catrin101/shutterNaves2D.git">
+                            <img src="IMG/icons/github.png" alt="Imagen 1">
+                        </a>
+                        <img class="lenguaje" src="IMG/icons/unity.png" alt="">
+                        <img class="lenguaje" src="IMG/icons/csharp.png" alt="">
+                    </div>
+                </div>
+                <div class="project" data-date="2021-10-01" data-languages="unity,csharp">
+                    <a href="https://youtu.be/QVdCCRW18wM">
+                        <img class="link" src="IMG/Tetris.png" alt="Proyecto 2">
+                    </a>
+                    <h3>Proyecto: Tetris</h3>
+                    <div>
+                        <a class="github" href="https://github.com/Catrin101/Tetris.git">
+                            <img src="IMG/icons/github.png" alt="Imagen 1">
+                        </a>
+                        <img class="lenguaje" src="IMG/icons/unity.png" alt="">
+                        <img class="lenguaje" src="IMG/icons/csharp.png" alt="">
+                    </div>
+                </div>
+                <div class="project" data-date="2023-03-09" data-languages="html,css">
+                    <a href="https://catrin101.github.io/Casa-Gudino-100/">
+                        <img class="link" src="IMG/CASA_GUDINO_LOGO2.png" alt="Proyecto 2">
+                    </a>
+                    <h3>Proyecto: Casa Gudiño</h3>
+                    <div>
+                        <a class="github" href="https://github.com/Catrin101/Casa-Gudino-100.git">
+                            <img src="IMG/icons/github.png" alt="Imagen 1">
+                        </a>
+                        <img class="lenguaje" src="IMG/icons/html5.png" alt="">
+                        <img class="lenguaje" src="IMG/icons/css.png" alt="">
+                    </div>
+                </div>
+                <div class="project" data-date="2020-10-01" data-languages="java">
+                    <a href="">
+                        <img class="link" src="IMG/java_logo_icon.png" alt="Proyecto 2">
+                    </a>
+                    <h3>Practicas: JAVA</h3>
+                    <div>
+                        <a class="github" href="https://github.com/Catrin101/Practicas-java.git">
+                            <img src="IMG/icons/github.png" alt="Imagen 1">
+                        </a>
+                        <img class="lenguaje" src="IMG/icons/java.png" alt="">
+                    </div>
+                </div>
+                <div class="project" data-date="2020-10-01" data-languages="java">
+                    <a href="">
+                        <img class="link" src="IMG/poo.jpg" alt="Proyecto 2">
+                    </a>
+                    <h3>Practicas: POO</h3>
+                    <div>
+                        <a class="github" href="https://github.com/Catrin101/Practicas-POO-java.git">
+                            <img src="IMG/icons/github.png" alt="Imagen 1">
+                        </a>
+                        <img class="lenguaje" src="IMG/icons/java.png" alt="">
+                    </div>
+                </div>
+                <div class="project" data-date="2021-10-01" data-languages="java">
+                    <a href="">
+                        <img class="link" src="IMG/AED.png" alt="Proyecto 2">
+                    </a>
+                    <h3>Practicas: Algoritmos y Estructura de Datos</h3>
+                    <div>
+                        <a class="github" href="https://github.com/Catrin101/Practicas-algoritmos-y-estructura-de-datos-java.git">
+                            <img src="IMG/icons/github.png" alt="Imagen 1">
+                        </a>
+                        <img class="lenguaje" src="IMG/icons/java.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="contact">
+            <div class="form-container">
+                <form action="https://formsubmit.co/catrin0110001@gmail.com" method="POST">
+                    <h1>Contactame</h1>
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Telefono:</label>
+                        <input type="text" id="telefono" name="telefono" placeholder="Ingrese su telefono" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" placeholder="Ingrese su correo electrónico" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Ingrese su mensaje" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="social-links">
+                <a href="https://www.facebook.com/profile.php?id=100010063900305" target="_blank">
+                  <img src="IMG/icons/facebook.png" alt="Facebook">
+                </a>
+                <a href="https://github.com/Catrin101?tab=repositories" target="_blank">
+                  <img src="IMG/icons/github.png" alt="GitHub">
+                </a>
+              </div>
+        </footer>
+
+        <script>
+            function filterProjects(filter) {
+                const projects = document.querySelectorAll('.project');
+
+                projects.forEach(function(project) {
+                const languages = project.getAttribute('data-languages').split(',');
+
+                if (
+                    (filter === 'recent' && isRecent(project)) ||
+                    (filter === 'oldest' && isOldest(project)) ||
+                    (languages.includes(filter))
+                ) {
+                    project.style.display = 'block';
+                } else {
+                    project.style.display = 'none';
+                }
+                });
+            }
+            
+            function isRecent(date) {
+              const currentDate = new Date();
+              const projectDate = new Date(date);
+              
+              return projectDate <= currentDate;
+            }
+            
+            function isOldest(date) {
+              const currentDate = new Date();
+              const projectDate = new Date(date);
+              
+              return projectDate >= currentDate;
+            }
+          </script>
+    </body>
+</html>
